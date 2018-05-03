@@ -6,7 +6,7 @@
 /*   By: ckrommen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/01 20:07:35 by ckrommen          #+#    #+#             */
-/*   Updated: 2018/05/02 22:14:46 by ckrommen         ###   ########.fr       */
+/*   Updated: 2018/05/02 22:57:18 by ckrommen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ int					checker(t_stack *a, t_stack *b);
 ** Extra tools
 */
 
-int					check_dupes(int *arr, int i, int argc);
+int					check_dupes(int *arr, int i, int x);
 int					ft_isnum(char *str);
 int					check_error(int argc, char **arg);
 int					find_highest(t_stack *a);

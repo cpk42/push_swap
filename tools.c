@@ -6,7 +6,7 @@
 /*   By: ckrommen <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/02 20:14:40 by ckrommen          #+#    #+#             */
-/*   Updated: 2018/05/02 22:44:30 by ckrommen         ###   ########.fr       */
+/*   Updated: 2018/05/02 22:57:13 by ckrommen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,9 @@ int check_error(int argc, char **arg)
 	return (1);
 }
 
-int		check_dupes(int *arr, int i, int argc)
+int		check_dupes(int *arr, int i, int x)
 {
-	while (argc--)
+	while (x--)
 	{
 		if (*arr == i)
 			return (0);
