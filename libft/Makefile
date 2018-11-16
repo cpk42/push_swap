@@ -6,7 +6,7 @@
 #    By: ckrommen <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/09/18 15:04:53 by ckrommen          #+#    #+#              #
-#    Updated: 2018/03/13 13:10:35 by ckrommen         ###   ########.fr        #
+#    Updated: 2018/10/17 14:52:23 by ckrommen         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -20,7 +20,7 @@ FLAGS = -Wall -Wextra -Werror
 
 NAME = libft.a
 
-all: $(NAME)
+all: clean $(NAME)
 
 $(NAME):
 	@gcc $(FLAGS) -c $(SRCS) $(PRINTF) -I $(NAME)

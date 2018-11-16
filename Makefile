@@ -6,7 +6,7 @@
 #    By: ckrommen <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/01 17:23:01 by ckrommen          #+#    #+#              #
-#    Updated: 2018/05/02 20:51:00 by ckrommen         ###   ########.fr        #
+#    Updated: 2018/10/17 14:52:09 by ckrommen         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -22,7 +22,7 @@ CHECK = checker
 
 LIBFT = libft
 
-all: $(NAME)
+all: clean $(NAME)
 
 $(NAME):
 	@echo "\033[32mCompiling source files\033[0m"
